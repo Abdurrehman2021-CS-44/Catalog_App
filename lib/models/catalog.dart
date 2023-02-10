@@ -1,3 +1,10 @@
+class CatalogItem {
+  static List<Item> Items = [
+    Item("1", "iPhone", "Smartphone", 990, "color",
+        "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+  ];
+}
+
 class Item {
   final String id;
   final String name;
